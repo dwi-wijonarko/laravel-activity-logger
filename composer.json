@@ -1,0 +1,59 @@
+{
+    "name": "dwi-wijonarko/laravel-activity-logger",
+    "description": "Simple Laravel package for logging user activities with automatic tracking",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "activity",
+        "logger",
+        "audit",
+        "tracking"
+    ],
+    "homepage": "https://github.com/dwi-wijonarko/laravel-activity-logger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dwi Wijonarko",
+            "email": "dwi.wijonarko@gmail.com",
+            "homepage": "https://github.com/dwi-wijonarko"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/database": "^9.0|^10.0|^11.0",
+        "illuminate/console": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DwiWijonarko\\ActivityLogger\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DwiWijonarko\\ActivityLogger\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DwiWijonarko\\ActivityLogger\\ActivityLoggerServiceProvider"
+            ],
+            "aliases": {
+                "Activity": "DwiWijonarko\\ActivityLogger\\Facades\\Activity"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
