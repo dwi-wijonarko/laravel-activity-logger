@@ -12,7 +12,7 @@ A simple and elegant Laravel package for logging user activities. Track all user
 - 🔍 **Query Filters**: Easy querying by user, model, date range, etc.
 - 💾 **Detailed Tracking**: Stores old and new values, IP address, user agent
 - ⚙️ **Configurable**: Customize table name, ignored attributes, retention period
-- 🎯 **Laravel 9-11 Support**: Compatible with latest Laravel versions
+- 🎯 **Laravel 9-12 Support**: Compatible with latest Laravel versions
 
 ## Installation
 
