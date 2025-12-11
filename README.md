@@ -248,7 +248,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Security
 
-If you discover any security-related issues, please email your.email@example.com instead of using the issue tracker.
+If you discover any security-related issues, please email dwi.wijonarko@gmail.com instead of using the issue tracker.
 
 ## Credits
 
